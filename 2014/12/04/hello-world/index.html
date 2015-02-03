@@ -39,6 +39,8 @@
     
       <li><a href="/archives">Archives</a></li>
     
+      <li><a href="/about">About</a></li>
+    
   </ul>
   <div class="clearfix"></div>
 </nav>
@@ -88,16 +90,8 @@
         
   <div class="addthis addthis_toolbox addthis_default_style">
     
-      <a class="addthis_button_facebook_like" fb:like:layout="button_count"></a>
     
     
-      <a class="addthis_button_tweet"></a>
-    
-    
-      <a class="addthis_button_google_plusone" g:plusone:size="medium"></a>
-    
-    
-      <a class="addthis_button_pinterest_pinit" pi:pinit:layout="horizontal"></a>
     
     <a class="addthis_counter addthis_pill_style"></a>
   </div>
@@ -111,37 +105,53 @@
 
 
 <section id="comment">
-  <h1 class="title">留言</h1>
-
-  
-      <div id="fb-root"></div>
-<script>
-  (function(d, s, id) {
-    var js, fjs = d.getElementsByTagName(s)[0];
-    if (d.getElementById(id)) return;
-    js = d.createElement(s); js.id = id;
-    js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=123456789012345";
-    fjs.parentNode.insertBefore(js, fjs);
-  }(document, 'script', 'facebook-jssdk'));
-</script>
-
-<div class="fb-comments" data-href="http://yoursite.com/2014/12/04/hello-world/" data-num-posts="5" data-width="840" data-colorscheme="light"></div>
-      
-  
+  <!-- 多说评论框 start -->
+	<div class="ds-thread"></div>
+  <!-- 多说评论框 end -->
+  <!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+  <script type="text/javascript">
+      var duoshuoQuery = {short_name:"swyma"};
+  	  (function() {
+    		  var ds = document.createElement('script');
+    		  ds.type = 'text/javascript';ds.async = true;
+    		  ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+    		  ds.charset = 'UTF-8';
+  		    (document.getElementsByTagName('head')[0]
+  		    || document.getElementsByTagName('body')[0]).appendChild(ds);
+  	   })();
+	</script>
+  <!-- 多说公共JS代码 end -->
 </section>
+
 
 </div></div>
     <aside id="sidebar" class="alignright">
-  <div class="search">
-  <form action="//google.com/search" method="get" accept-charset="utf-8">
-    <input type="search" name="q" results="0" placeholder="搜索">
-    <input type="hidden" name="q" value="site:yoursite.com">
-  </form>
+  
+<div class="widget tag">
+  <h3 class="title">最新文章</h3>
+  <ul class="entry">
+    
+      <li>
+        <a href="/2014/12/04/hello-world/">Hello World</a>
+      </li>
+    
+  </ul>
 </div>
 
+
   
 
   
+
+  <div class="widget tag">
+<h3 class="title">友情链接</h3>
+<ul class="entry">
+<li>
+    <a href="http://www.cnblogs.com/maoan" title="title" target="_blank">swyma</a>
+</li>
+</ul>
+</div>
+
 </aside>
     <div class="clearfix"></div>
   </div>
@@ -165,6 +175,9 @@
   $('.fancybox').fancybox();
 })(jQuery);
 </script>
+
+  
+<script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"16"},"slide":{"type":"slide","bdImg":"2","bdPos":"right","bdTop":"100"},"image":{"viewList":["qzone","tsina","tqq","renren","weixin"],"viewText":"分享到：","viewSize":"16"},"selectShare":{"bdContainerClass":null,"bdSelectMiniList":["qzone","tsina","tqq","renren","weixin"]}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
 
 </body>
 </html>
