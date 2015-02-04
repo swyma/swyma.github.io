@@ -35,11 +35,11 @@
 <nav id="main-nav" class="alignright">
   <ul>
     
-      <li><a href="/">Home</a></li>
+      <li><a href="/">首页</a></li>
     
-      <li><a href="/archives">Archives</a></li>
+      <li><a href="/archives">技术分享</a></li>
     
-      <li><a href="/about">About</a></li>
+      <li><a href="/about">关于作者</a></li>
     
   </ul>
   <div class="clearfix"></div>
@@ -105,6 +105,18 @@
   <div class="clearfix"></div>
 </nav></div></div>
     <aside id="sidebar" class="alignright">
+  <div class="search">
+  <form action="//baidu.com/baidu" method="get" accept-charset="utf-8">
+    <input type="search" name="word" results="0" placeholder="搜索">
+    <input type="hidden" name="si" value="yoursite.com">
+    <input name=tn type=hidden value="bds">
+	<input name=cl type=hidden value="3">
+	<input name=ct type=hidden value="2097152">
+	<input name=s type=hidden value="on">
+  </form>
+</div>
+
+
   
 <div class="widget tag">
   <h3 class="title">最新文章</h3>
@@ -153,6 +165,17 @@
 (function($){
   $('.fancybox').fancybox();
 })(jQuery);
+</script>
+
+
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?8610e1c9c538fd4f78e0cd6765d80362";
+  var s = document.getElementsByTagName("script")[0];
+  s.parentNode.insertBefore(hm, s);
+})();
 </script>
 
   
